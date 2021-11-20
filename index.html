@@ -3,11 +3,141 @@
     <meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE-edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <
+    
     <head>
         <title>FIRST ACTIVITY</title>
+        <style>
+            @import url("https://fonts.googleapis.com/css?family=Tangerine:wght@300;400&display=swap");
+    
+            main{
+    position:center;
+      margin-bottom: 0;
+                position: fixed;
+                top:40px; 
+                bottom: 50px; 
+                left: 0px; 
+                right: 0; 
+                overflow: auto; 
+                
+                background-size: 100%;
+                background-position: center;
+                background-repeat: no-repeat;
+                background: url('background.jpg');
+            }
+            .my-info{
+                
+                background-color: gray;
+                color: yellow;
+                height: 40px;
+                text-align: center;
+                width: 250px;
+                margin-bottom: 10px; 
+                border-radius: 20%; 
+                background: linear-gradient(white,green);
+            }
+            .text{
+                font-family: Arial, Helvetica, sans-serif;
+                margin-top: 10px;
+    
+    
+            }
+            
+    
+            .portfolio-container {
+                display: grid;
+                place-items: center;
+            }
+    
+            .portfolio-container img {
+                width: 200px;
+                height: 200px;
+                border-radius: 50%;
+                border:2px solid green;
+            }
+    
+            .portfolio-container .name {
+                margin-top: 10px;
+                font-size: 30px;
+                color:yellow;
+            }
+             fieldset{
+                border-radius: 30%;
+                border: 2px solid gray;
+                background: linear-gradient(white,black);
+             }
+    
+            .details{
+                
+                font-size: 18px;
+                font-family: Arial;
+                color: red;
+    
+            }
+            table{
+                background: linear-gradient(white,black);
+            }
+            
+                
+            .gallery-info{
+                background:linear-gradient(white,green);
+                color: yellow;
+                height: 40px;
+                text-align: center;
+                width: 250px;
+                margin-bottom: 10px;
+                margin-top: 40px; 
+                border-radius: 20%; 
+            }
+            .gallery-container img{
+                border:2px solid green;
+                border-radius: 20%; 
+            }
+            .footer{
+            text-align: center;
+                position: absolute;
+                left: 0;
+                bottom: 1px;
+                width: 100%;
+                height: 50px; 
+                overflow: hidden; 
+                background: linear-gradient(black,white);
+    
+        
+        </style>
     </head>
     <body>
+
+    	 <main>
+    
+    <div class="my-info"><h2 class="text">PORTFOLIO</h2>
+    </div>
+	<div class="container">
+        <div class="portfolio-container">
+            <img src="Jhongray.jpeg" 
+                alt="userimg">
+            <div class="name"><fieldset>JHON GRAY ASIS</fieldset></div>
+            <div class="details">
+                <center>
+                    <table border="2px solid green" >
+                        <tr><th width="500px" height="200px">
+
+                
+                    <p><b>Age: 21</b></p>
+                    <p><b>Course and Section: BSIT -2a</b></p>
+                    <p><b>Address: Brgy. Sanatarin Barugo, Leyte</b></p>
+                    <p><b>Hobbies: Playing Basketball</b></p>
+                    <p><b>School: Eastern Visayas State University - Carigara Campus</b></p>
+                  
+                    
+                
+            </th></tr>
+            </table>
+
+            </center>
+            </div>
+        </div>
+           
+    </div>
         <div class="container">
 
         
@@ -32,5 +162,14 @@
                     
                 </div>
                 </div> 
+
+</main>
+        <footer class="footer">
+  <center>
+  <b style="color: yellow;"><i>Created by: JHON GRAY ASIS</i></b>
+  <br>
+  <b>A.Y. 2021-2022</b>
+</center>
+</footer>
         </body>
         </html>
